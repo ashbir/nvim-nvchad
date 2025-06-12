@@ -12,6 +12,10 @@ return {
       require "configs.lspconfig"
     end,
   },
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
