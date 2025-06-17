@@ -13,6 +13,9 @@ return {
     end,
   },
   {
+    "mason-org/mason-lspconfig.nvim",
+  },
+  {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
